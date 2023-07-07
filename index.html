@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perosonal Blog Website</title>
+    <meta name="title" content="Perosonal Blog Website" />
+    <meta
+      name="description"
+      content="This is a blog html template made by KarthikeyaGuruju"
+    />
+    <link rel="shortcut icon" href="assets/images/1.png" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link rel="preload" as="image" href="./assets/images/pattern-2.svg" />
+    <link rel="preload" as="image" href="./assets/images/pattern-3.svg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="" class="logo">
+          <img
+            src="./assets/images/1.png"
+            width="50"
+            height="37"
+            alt="Wren logo"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="" class="logo">
+              <img
+                src="./assets/images/1.png"
+                width="50"
+                height="37"
+                alt="Wren logo"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link hover-1" data-nav-toggler
+                >Home</a
+              >
+            </li>
+
+            <li>
+              <a href="#topics" class="navbar-link hover-1" data-nav-toggler
+                >Topics</a
+              >
+            </li>
+
+            <li>
+              <a href="#featured" class="navbar-link hover-1" data-nav-toggler
+                >Recent Post</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="mailto:karthikeyaguruju@gmail.com"
+                class="navbar-link hover-1"
+                data-nav-toggler
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <br />
+          <p class="copyright-text">
+            Copyright 2023 © Personal Blog Template. Developed by
+            KarthikeyaGuruju
+          </p>
+        </nav>
+
+        <a href="karthikeya16.netlify.app" class="btn btn-primary"
+          >Connect With Me</a
+        >
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero" id="home" aria-label="home">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">Hello Everyone!</p>
+
+              <h1 class="headline headline-1 section-title">
+                I’m <span class="span">Karthikeya</span>
+              </h1>
+
+              <p class="hero-text">
+                I use animation as a third dimension by which to simplify
+                experiences and kuiding thro each and every interaction. I’m not
+                adding motion just to spruce things up, but doing it in ways
+                that.
+              </p>
+            </div>
+
+            <div class="hero-banner">
+              <img
+                src="./assets/images/pattern-2.svg"
+                width="27"
+                height="26"
+                alt="shape"
+                class="shape shape-1"
+              />
+
+              <img
+                src="./assets/images/pattern-3.svg"
+                width="27"
+                height="26"
+                alt="shape"
+                class="shape shape-2"
+              />
+            </div>
+
+            <img
+              src="./assets/images/shadow-1.svg"
+              width="500"
+              height="800"
+              alt=""
+              class="hero-bg hero-bg-1"
+            />
+
+            <img
+              src="./assets/images/shadow-2.svg"
+              width="500"
+              height="500"
+              alt=""
+              class="hero-bg hero-bg-2"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #TOPICS
+      -->
+
+        <section class="topics" id="topics" aria-labelledby="topic-label">
+          <div class="container">
+            <div class="card topic-card">
+              <div class="card-content">
+                <h2
+                  class="headline headline-2 section-title card-title"
+                  id="topic-label"
+                >
+                  Hot topics
+                </h2>
+
+                <p class="card-text">
+                  Don't miss out on the latest news about Blogs.
+                </p>
+
+                <div class="btn-group">
+                  <button
+                    class="btn-icon"
+                    aria-label="previous"
+                    data-slider-prev
+                  >
+                    <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                  </button>
+
+                  <button class="btn-icon" aria-label="next" data-slider-next>
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </div>
+
+              <div class="slider" data-slider>
+                <ul class="slider-list" data-slider-container>
+                  <li class="slider-item">
+                    <a href="#" class="slider-card">
+                      <figure
+                        class="slider-banner img-holder"
+                        style="--width: 507; --height: 618"
+                      >
+                        <img
+                          src="./assets/images/topic-1.png"
+                          width="507"
+                          height="618"
+                          loading="lazy"
+                          alt="Sport"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="slider-content">
+                        <span class="slider-title">Sport</span>
+
+                        <!-- <p class="slider-subtitle">38 Articles</p> -->
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="slider-item">
+                    <a href="#" class="slider-card">
+                      <figure
+                        class="slider-banner img-holder"
+                        style="--width: 507; --height: 618"
+                      >
+                        <img
+                          src="./assets/images/topic-2.png"
+                          width="507"
+                          height="618"
+                          loading="lazy"
+                          alt="Travel"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="slider-content">
+                        <span class="slider-title">Travel</span>
+
+                        <!-- <p class="slider-subtitle">63 Articles</p> -->
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="slider-item">
+                    <a href="#" class="slider-card">
+                      <figure
+                        class="slider-banner img-holder"
+                        style="--width: 507; --height: 618"
+                      >
+                        <img
+                          src="./assets/images/topic-3.png"
+                          width="507"
+                          height="618"
+                          loading="lazy"
+                          alt="Design"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="slider-content">
+                        <span class="slider-title">Design</span>
+
+                        <!-- <p class="slider-subtitle">78 Articles</p> -->
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="slider-item">
+                    <a href="#" class="slider-card">
+                      <figure
+                        class="slider-banner img-holder"
+                        style="--width: 507; --height: 618"
+                      >
+                        <img
+                          src="./assets/images/topic-4.png"
+                          width="507"
+                          height="618"
+                          loading="lazy"
+                          alt="Movie"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="slider-content">
+                        <span class="slider-title">Movie</span>
+
+                        <!-- <p class="slider-subtitle">125 Articles</p> -->
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="slider-item">
+                    <a href="karthikeya16.netlify.app" class="slider-card">
+                      <figure
+                        class="slider-banner img-holder"
+                        style="--width: 507; --height: 618"
+                      >
+                        <img
+                          src="./assets/images/topic-5.png"
+                          width="507"
+                          height="618"
+                          loading="lazy"
+                          alt="Lifestyle"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="slider-content">
+                        <span class="slider-title">Lifestyle</span>
+
+                        <!-- <p class="slider-subtitle">78 Articles</p> -->
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURED POST
+      -->
+
+        <section class="section feature" aria-label="feature" id="featured">
+          <div class="container">
+            <h2 class="headline headline-2 section-title">
+              <span class="span">Recent Posts</span>
+            </h2>
+
+            <p class="section-text">Featured and highly rated Posts</p>
+
+            <ul class="feature-list">
+              <li>
+                <div class="card feature-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1602; --height: 903"
+                  >
+                    <img
+                      src="./assets/images/2.png"
+                      width="1602"
+                      height="903"
+                      loading="lazy"
+                      alt="Live Calendar"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="" class="span hover-2"># Web Developement</a>
+                        &nbsp;
+                        <a href="" class="span hover-2"># Web Design</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">8 mins read</span>
+                      </div>
+                    </div>
+
+                    <h3 class="headline headline-3">
+                      <a
+                        href="https://h3y72w.csb.app/"
+                        target="_blank"
+                        class="card-title hover-2"
+                      >
+                        LIVE CALENDAR
+                      </a>
+                    </h3>
+
+                    <div class="card-wrapper">
+                      <div class="profile-card">
+                        <img
+                          src="./assets/images/1.png"
+                          width="48"
+                          height="48"
+                          loading="lazy"
+                          alt="karthikeyaguruju"
+                          class="profile-banner"
+                        />
+
+                        <div>
+                          <p class="card-title">Karthikeyaguruju</p>
+
+                          <p class="card-subtitle">07 June 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card feature-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1602; --height: 903"
+                  >
+                    <img
+                      src="./assets/images/3.png"
+                      width="1602"
+                      height="903"
+                      loading="lazy"
+                      alt="Login Form"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="" class="span hover-2"># Web Design</a>
+                        &nbsp;
+                        <a href="" class="span hover-2"># Web Developement</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">10 mins read</span>
+                      </div>
+                    </div>
+
+                    <h3 class="headline headline-3">
+                      <a
+                        href="https://qfpfr3.csb.app/"
+                        target="_blank"
+                        class="card-title hover-2"
+                      >
+                        LOGIN AND REGISTRATION FORM
+                      </a>
+                    </h3>
+
+                    <div class="card-wrapper">
+                      <div class="profile-card">
+                        <img
+                          src="./assets/images/1.png"
+                          width="48"
+                          height="48"
+                          loading="lazy"
+                          alt="karthikeyaguruju"
+                          class="profile-banner"
+                        />
+
+                        <div>
+                          <p class="card-title">Karthikeyaguruju</p>
+
+                          <p class="card-subtitle">09 June 2023</p>
+                        </div>
+                      </div>
+
+                      <!-- <a href="" class="card-btn">Read more</a> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card feature-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1602; --height: 903"
+                  >
+                    <img
+                      src="./assets/images/5.jpg"
+                      width="1602"
+                      height="903"
+                      loading="lazy"
+                      alt="Register Form"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="" class="span hover-2"># Design</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">10 mins read</span>
+                      </div>
+                    </div>
+
+                    <h3 class="headline headline-3">
+                      <a
+                        href="https://qfpfr3.csb.app/"
+                        target="_blank"
+                        class="card-title hover-2"
+                      >
+                        LOGIN FORM
+                      </a>
+                    </h3>
+
+                    <div class="card-wrapper">
+                      <div class="profile-card">
+                        <img
+                          src="./assets/images/1.png"
+                          width="48"
+                          height="48"
+                          loading="lazy"
+                          alt="karthikeyaguruju"
+                          class="profile-banner"
+                        />
+
+                        <div>
+                          <p class="card-title">Karthikeyaguruju</p>
+
+                          <p class="card-subtitle">15 June 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card feature-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1602; --height: 903"
+                  >
+                    <img
+                      src="./assets/images/6.jpg"
+                      width="1602"
+                      height="903"
+                      loading="lazy"
+                      alt="3D Buttons"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="" class="span hover-2"># Design</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">10 mins read</span>
+                      </div>
+                    </div>
+
+                    <h3 class="headline headline-3">
+                      <a
+                        href="https://dtl7v9.csb.app/"
+                        target="_blank"
+                        class="card-title hover-2"
+                      >
+                        SOCIAL MEDIA 3D BUTTONS
+                      </a>
+                    </h3>
+
+                    <div class="card-wrapper">
+                      <div class="profile-card">
+                        <img
+                          src="./assets/images/1.png"
+                          width="48"
+                          height="48"
+                          loading="lazy"
+                          alt="karthikeyaguruju"
+                          class="profile-banner"
+                        />
+
+                        <div>
+                          <p class="card-title">Karthikeyaguruju</p>
+
+                          <p class="card-subtitle">20 June 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card feature-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1602; --height: 903"
+                  >
+                    <img
+                      src="./assets/images/7.jpg"
+                      width="1602"
+                      height="903"
+                      loading="lazy"
+                      alt="Register Form"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="" class="span hover-2"># Design</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">10 mins read</span>
+                      </div>
+                    </div>
+
+                    <h3 class="headline headline-3">
+                      <a
+                        href="https://txhv5q.csb.app/"
+                        target="_blank"
+                        class="card-title hover-2"
+                      >
+                        VISA DEBITCARD
+                      </a>
+                    </h3>
+
+                    <div class="card-wrapper">
+                      <div class="profile-card">
+                        <img
+                          src="./assets/images/1.png"
+                          width="48"
+                          height="48"
+                          loading="lazy"
+                          alt="karthikeyaguruju"
+                          class="profile-banner"
+                        />
+                        <div>
+                          <p class="card-title">Karthikeyaguruju</p>
+                          <p class="card-subtitle">25 June 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card feature-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1602; --height: 903"
+                  >
+                    <img
+                      src="./assets/images/8.jpg"
+                      width="1602"
+                      height="903"
+                      loading="lazy"
+                      alt="Register Form"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="" class="span hover-2"># Design</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">10 mins read</span>
+                      </div>
+                    </div>
+
+                    <h3 class="headline headline-3">
+                      <a
+                        href="https://kq6zjf.csb.app/"
+                        target="_blank"
+                        target="_blank"
+                        class="card-title hover-2"
+                      >
+                        ANALOG CLOCK
+                      </a>
+                    </h3>
+
+                    <div class="card-wrapper">
+                      <div class="profile-card">
+                        <img
+                          src="./assets/images/1.png"
+                          width="48"
+                          height="48"
+                          loading="lazy"
+                          alt="karthikeyaguruju"
+                          class="profile-banner"
+                        />
+
+                        <div>
+                          <p class="card-title">Karthikeyaguruju</p>
+
+                          <p class="card-subtitle">29 June 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card feature-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1602; --height: 903"
+                  >
+                    <img
+                      src="./assets/images/9.jpg"
+                      width="1602"
+                      height="903"
+                      loading="lazy"
+                      alt="Notification"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="" class="span hover-2"># Design</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">10 mins read</span>
+                      </div>
+                    </div>
+
+                    <h3 class="headline headline-3">
+                      <a
+                        href="https://g94fyn.csb.app/"
+                        target="_blank"
+                        class="card-title hover-2"
+                      >
+                        TOAST NOTIFICATION
+                      </a>
+                    </h3>
+
+                    <div class="card-wrapper">
+                      <div class="profile-card">
+                        <img
+                          src="./assets/images/1.png"
+                          width="48"
+                          height="48"
+                          loading="lazy"
+                          alt="karthikeyaguruju"
+                          class="profile-banner"
+                        />
+
+                        <div>
+                          <p class="card-title">Karthikeyaguruju</p>
+
+                          <p class="card-subtitle">05 July 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card feature-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1602; --height: 903"
+                  >
+                    <img
+                      src="./assets/images/10.jpg"
+                      width="1602"
+                      height="903"
+                      loading="lazy"
+                      alt="Profile Card"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="" class="span hover-2"># Design</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">10 mins read</span>
+                      </div>
+                    </div>
+
+                    <h3 class="headline headline-3">
+                      <a
+                        href="https://m83f9y.csb.app/"
+                        target="_blank"
+                        class="card-title hover-2"
+                      >
+                        PROFILE CARD
+                      </a>
+                    </h3>
+
+                    <div class="card-wrapper">
+                      <div class="profile-card">
+                        <img
+                          src="./assets/images/1.png"
+                          width="48"
+                          height="48"
+                          loading="lazy"
+                          alt="karthikeyaguruju"
+                          class="profile-banner"
+                        />
+
+                        <div>
+                          <p class="card-title">Karthikeyaguruju</p>
+
+                          <p class="card-subtitle">09 July 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <img
+            src="./assets/images/shadow-3.svg"
+            width="500"
+            height="1500"
+            loading="lazy"
+            alt=""
+            class="feature-bg"
+          />
+        </section>
+
+        <!-- 
+        - #POPULAR TAGS
+      -->
+        <!-- 
+        <section class="tags" aria-labelledby="tag-label">
+          <div class="container">
+            <h2 class="headline headline-2 section-title" id="tag-label">
+              <span class="span">Popular Tags</span>
+            </h2>
+
+            <p class="section-text">Most searched keywords</p>
+
+            <ul class="grid-list">
+              <li>
+                <button class="card tag-btn">
+                  <img
+                    src="./assets/images/tag4.png"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="Fashion"
+                  />
+
+                  <p class="btn-text">Fashion</p>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </section> -->
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer>
+      <div class="container">
+        <div class="card footer">
+          <div class="section footer-top">
+            <div class="footer-brand">
+              <a href="#" class="logo">
+                <img
+                  src="./assets/images/1.png"
+                  width="119"
+                  height="37"
+                  loading="lazy"
+                  alt="Wren logo"
+                />
+              </a>
+
+              <p class="footer-text">
+                When an unknown prnoto sans took a galley and scrambled it to
+                make specimen book not only five When an unknown prnoto sans
+                took a galley and scrambled it to five centurie.
+              </p>
+
+              <p class="footer-list-title">Address</p>
+
+              <address class="footer-text address">
+                KL University <br />
+                Vijayawada , AndhraPradesh
+              </address>
+            </div>
+
+            <div class="footer-list">
+              <p class="footer-list-title">Categories</p>
+
+              <ul>
+                <li>
+                  <a href="#" class="footer-link hover-2">Home</a>
+                </li>
+
+                <li>
+                  <a href="#topics" class="footer-link hover-2">Topic</a>
+                </li>
+
+                <li>
+                  <a href="#featured" class="footer-link hover-2"
+                    >Recent Post</a
+                  >
+                </li>
+
+                <li>
+                  <a href="karthik16.netliy.app" class="footer-link hover-2"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-list">
+              <p class="footer-list-title">Newsletter</p>
+
+              <p class="footer-text">
+                To be first to receive the latest stories inspiring us, case
+                studies, and industry news.
+              </p>
+              <a href="mailto:karthikeyaguruju.com" class="btn btn-primary">
+                <span class="span">Subscribe</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p class="copyright">
+              &copy; Developed by
+              <a href="mailto:karthikeyaguruju.com" class="copyright-link"
+                >KarthikeyaGuruju</a
+              >
+            </p>
+
+            <ul class="social-list">
+              <li>
+                <a
+                  href="https://twitter.com/KarthikeyaGuru2"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-twitter"></ion-icon>
+
+                  <span class="span">Twitter</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100071345375225"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-facebook"></ion-icon>
+
+                  <span class="span">Facebook</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/karthikeyaguruju"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-github"></ion-icon>
+
+                  <span class="span">Github</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/guruju_karthikeya.naidu/"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-instagram"></ion-icon>
+
+                  <span class="span">Instagram</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/karthikeya-guruju/"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-linkedin"></ion-icon>
+
+                  <span class="span">LinkedIn</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      const disabledKeys = ["c", "C", "x", "J", "u", "I"]; // keys that will be disabled
+      const showAlert = (e) => {
+        e.preventDefault(); // preventing its default behaviour
+        return alert("Sorry, you can't view or copy source codes this way!");
+      };
+      document.addEventListener("contextmenu", (e) => {
+        showAlert(e); // calling showAlert() function on mouse right click
+      });
+      document.addEventListener("keydown", (e) => {
+        // calling showAlert() function, if the pressed key matched to disabled keys
+        if ((e.ctrlKey && disabledKeys.includes(e.key)) || e.key === "F12") {
+          showAlert(e);
+        }
+      });
+    </script>
+  </body>
+</html>
